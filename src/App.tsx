@@ -1,10 +1,18 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import AddPlan from './pages/AddPlan'
 import styles from './App.module.css'
 
 function App() {
   return (
-    <div className={styles.container}>
-      <h1>Планировщик путешествий</h1>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <div className={styles.container}>
+        <Routes>
+          <Route path="/add" element={<AddPlan/>} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   )
 }
 
