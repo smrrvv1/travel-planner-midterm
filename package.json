@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@swc/core": "^1.15.18",
+    "@swc/core-win32-x64-msvc": "^1.15.18",
+    "@vitejs/plugin-react": "^5.1.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

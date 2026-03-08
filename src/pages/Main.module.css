@@ -1,8 +1,42 @@
-.card {
-    border: 1px solid rgb(204, 204, 204);
+.pageWrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px; 
+    min-height: calc(100vh - 60px);
+    background-color: rgb(236, 255, 244); 
+}
+
+.listContainer {
+    background-color: rgb(218, 255, 223); 
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+
+.item {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204); 
     padding: 15px;
     margin-bottom: 10px;
+    border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
+
+.countryName {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.detailBtn {
+    color: rgb(80, 44, 68);
+    border-color: rgb(80, 44, 68);
+}
